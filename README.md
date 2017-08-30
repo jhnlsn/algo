@@ -1,2 +1,2 @@
 # recursion
-Common algorithms 
+Bar tricks to ammuse and wow your friends
