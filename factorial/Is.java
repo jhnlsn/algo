@@ -1,13 +1,12 @@
 class Is{  
     static int factorial(int n){    
-     if (n == 0)    
-       return 1;    
-     else    
-       return(n * factorial(n-1));    
+        if (n == 0)    
+            return 1;    
+        else    
+            return(n * factorial(n-1));    
     }    
     public static void main(String[] args){  
-     int number=4;//It is the number to calculate factorial    
-     int fact = factorial(number);   
-     System.out.println("Factorial of "+ number + " is: " + fact);    
-    }  
-   }
+        int fact = factorial(4);   
+        System.out.println("Factorial is: " + fact);
+    }
+}
